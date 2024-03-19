@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Alegreya"
+}
+.home{
+    color: white;
+    background:rgba(0, 0, 0, 0.3) url(../img/drew-coffman-1872.jpg);
+    background-blend-mode:saturation;
+    background-size: cover;
+    background-position: 100%;
+    
+
+   
+
+}
+.nav-link{
+    margin-left: 20px;
+    color: white !important;
+}
+
+.caption1Container{
+    justify-content: center;
+    align-items: flex-end;  
+}
+
+.caption1 button{
+    height: 55px;
+    width: 115px;
+    background-color: brown;
+    margin: 10PX;
+    border-radius: 4px;
+
+}
+.caption1 p{
+    font-size: 25px;
+    margin-bottom: 20px;
+    
+}
+.caption1 h1{
+    font-size: 65px;
+    margin-bottom: 10px;
+}
+.btn1{
+    color: white;
+    background-color:#795548 !important ;
+    border: none;
+    transition: all .5s;
+}
+.btn1:hover{
+    background-color: white !important;
+    color: black;
+}
+.btn2{
+    color: white;
+    border-color: white;
+    background-color: transparent !important;
+    transition: all .5s;
+}
+.btn2:hover{
+    background-color: white !important;
+    color: black;
+}
+.section2{
+    margin-top: 80px;
+}
+.img{
+    text-align: center;
+}
+.img img{
+    width: 550px;
+}
+.caption2{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.caption2 img{
+    width: 35px;
+    margin: 10px;
+}
+.caption2 p{
+    font-size: 17px;
+    padding-right: 40px;
+    line-height: 35px;
+    color: #6a6665;
+}
+.caption2 h2{
+    margin-bottom: 25px;
+}
+
+
+
+
+.OurLocation{
+    background-color: #f8f8f8;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.img3{
+    text-align: center;
+}
+.img3 img{
+    width: 550px;
+}
+.caption3{
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+}
+.caption3 h2{
+    margin-bottom: 20px;
+}
+.caption3 p{
+    font-size: 17px;
+}
+#OurBaking{
+    padding-top: 50px;
+}
+#OurBaking p{
+    color: #6a6665;
+    line-height: 30px;
+
+}
+.card{
+    width: 90%;
+    text-align: center;
+    border: none;
+    margin: 30px;
+}
+
+
+#ContactInfo{
+    margin-top: 50px;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    background-color:#f8f8f8;
+}
+.caption4 img{
+    width: 30px;
+    margin: 10px;
+}
+.pCaption4{
+    padding-right: 60px;
+    font-size: 17px;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+
+#AboutUs{
+    padding-top: 70px;
+    background-color: #403d38;
+    color: #939581;
+    padding-bottom: 70px;
+ 
+}
+#AboutUs h4{
+    padding-bottom: 20px;
+
+}
+.firstColumn{
+    padding-right:20px ;
+    line-height: 30px;
+}
+.secondColumn p{
+    position: relative;
+}
+
+.secondColumn p::after{
+    content: "";
+    width: 90%;
+    height: 1px;
+    background-color: rgb(125, 123, 123);
+    position: absolute;
+    top: 30px;
+    left:1px;
+    
+
+
+
+}
+
+.fourthColumn img{
+    width: 30px;
+    
+}
+.fourthColumn P{
+   position: relative;
+} 
+.fourthColumn P::after{
+    content: "";
+    width: 90%;
+    height: 1px;
+    background-color: rgb(125, 123, 123);
+  
+    position: absolute;
+    top: 40px;
+    left:1px;
+    
+}
+
+
+#Footer{
+    padding-top: 70px;
+    background-color: #353330;
+    height: 350px;
+    color: #696464;
+
+}
+.lastCaption{
+    
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+.icons{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    padding-left: 20px;
+}
+.icon{
+    height: 40px;
+    background-color: #484540;
+    width: 120px;
+    margin-right: 17px;
+    padding-top: 9px;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: all .5s;
+}
+.first:hover{
+    background-color: rgb(29, 62, 209);
+    color: white;
+}
+.second:hover{
+    background-color: rgb(228, 0, 0);
+    color: white;
+}
+
+.third:hover{
+    background-color: rgb(58, 94, 252);
+    color: white;
+}
+
+.fourth:hover{
+    background-color: rgb(58, 94, 252);
+    color: white;
+}
+
